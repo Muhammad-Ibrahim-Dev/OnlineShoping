@@ -1,0 +1,95 @@
+.yellow-area {
+  background-color: #ffd01d;
+}
+/* ------------------Nav bar------------------ */
+nav {
+  background-color: black !important;
+}
+
+nav .navlogo {
+  color: #ffd01d !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.navbar-dark .navbar-nav .active {
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-bottom: 1px solid #ffd01d !important;
+}
+
+nav #social-icon a {
+  color: white !important;
+}
+nav #social-icon a:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* ------------------header------------------ */
+header {
+  background: url(../images/banner.jpg) no-repeat center center/cover;
+}
+header h1 span {
+  color: #cd8383;
+}
+/* ------------------quality------------------ */
+#quality {
+  background-color: black;
+}
+#quality h1 {
+  color: #ffd01d;
+}
+/* ------------------visit------------------ */
+#visit {
+  background-color: #ffd01d;
+}
+/* ------------------deals------------------ */
+#deals .card .card-body {
+  background-color: black;
+}
+#off50 {
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.259);
+}
+/* ------------------new------------------ */
+#new {
+  background-color: black;
+}
+/* ------------------order------------------ */
+#order {
+  background-color: #ffd01d;
+}
+/* ------------------achievements------------------ */
+#achievements {
+  background-color: black;
+  font-family: "Noto Serif", serif;
+}
+/* ------------------contact------------------ */
+#contact {
+  background: #153e4a93 url(../images/contactus.jpg) no-repeat center
+    center/cover;
+  background-blend-mode: darken;
+}
+#contact #glow {
+  box-shadow: 0px 0px 10px 3px #ffd01d !important;
+}
+/* ------------------footer------------------ */
+footer {
+  background-color: black;
+  border-top: 10px solid #ffd01d;
+}
+footer ul {
+  line-height: 2;
+}
+footer input {
+  border: 0px solid !important;
+  border-bottom: 2px solid white !important;
+}
+footer input::placeholder {
+  color: white !important;
+}
